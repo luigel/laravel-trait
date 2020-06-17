@@ -14,7 +14,7 @@ class LaravelTraitServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                TraitMakeCommand::class
+                TraitMakeCommand::class,
             ]);
         }
     }

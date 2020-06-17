@@ -2,8 +2,8 @@
 
 namespace Luigel\LaravelTrait\Tests;
 
-use Orchestra\Testbench\TestCase;
 use Luigel\LaravelTrait\LaravelTraitServiceProvider;
+use Orchestra\Testbench\TestCase;
 
 class GenerateTraitTest extends TestCase
 {
@@ -11,7 +11,6 @@ class GenerateTraitTest extends TestCase
     {
         return [LaravelTraitServiceProvider::class];
     }
-
 
     public function testCanGenerateTrait()
     {

@@ -1,3 +1,14 @@
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/luigel/laravel-trait.svg?style=flat-square)](https://packagist.org/packages/cion/laravel-text-to-speech)
+![Test](https://github.com/luigel/laravel-trait/workflows/Test/badge.svg?branch=master)
+[![StyleCI](https://github.styleci.io/repos/272892317/shield?branch=master)](https://github.styleci.io/repos/272892317)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/luigel/laravel-trait/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/luigel/laravel-trait/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/luigel/laravel-trait.svg?style=flat-square)](https://packagist.org/packages/luigel/laravel-trait)
+[![License](https://img.shields.io/github/license/luigel/laravel-trait.svg?style=flat-square)](https://github.com/luigel/laravel-trait/blob/master/LICENSE.md)
+
+<!-- [
+[![Build Status](wip)](ghactions)
+ -->
+
 # Artisan command for Traits
 
 Laravel Trait is a simple artisan command that generates `Trait` in your app.

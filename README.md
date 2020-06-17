@@ -1,4 +1,4 @@
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/luigel/laravel-trait.svg?style=flat-square)](https://packagist.org/packages/cion/laravel-text-to-speech)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/luigel/laravel-trait.svg?style=flat-square)](https://packagist.org/packages/luigel/laravel-trait)
 ![Test](https://github.com/luigel/laravel-trait/workflows/Test/badge.svg?branch=master)
 [![StyleCI](https://github.styleci.io/repos/272892317/shield?branch=master)](https://github.styleci.io/repos/272892317)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/luigel/laravel-trait/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/luigel/laravel-trait/?branch=master)

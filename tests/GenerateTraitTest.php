@@ -17,13 +17,13 @@ class GenerateTraitTest extends TestCase
     {
         $this->artisan('make:trait TestTrait');
 
-        $this->assertFileExists(base_path('app\\Traits\\TestTrait.php'));
+        $this->assertFileExists(base_path('app/Traits/TestTrait.php'));
     }
 
     public function testGeneratedTraitHasCorrectContent()
     {
         $this->artisan('make:trait TestTrait');
-        $contents = file_get_contents(base_path('app\\Traits\\TestTrait.php'));
+        $contents = file_get_contents(base_path('app/Traits/TestTrait.php'));
         $this->assertNotFalse(strpos($contents, 'trait TestTrait'));
     }
 }

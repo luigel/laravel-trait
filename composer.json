@@ -1,0 +1,53 @@
+{
+    "name": "luigel/laravel-trait",
+    "description": "A simple artisan command to generate Traits",
+    "keywords": [
+        "luigel",
+        "laravel-trait",
+        "trait",
+        "artisan",
+        "command"
+    ],
+    "homepage": "https://github.com/luigel/laravel-trait",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rigel Kent Carbonel",
+            "email": "rigel20.kent@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^7.2|^7.3|^7.4",
+        "illuminate/support": "5.*|^6.0|^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.5.0|^3.6.0|^4.0|^5.0",
+        "phpunit/phpunit": "^5.0|^6.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Luigel\\LaravelTrait\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Luigel\\LaravelTrait\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Luigel\\LaravelTrait\\LaravelTraitServiceProvider"
+            ]
+        }
+    }
+}
